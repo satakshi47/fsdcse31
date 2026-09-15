@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb ON OFF</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+
+<body id="page">
+
+<h1>With the help of JavaScript we can change the attribute</h1>
+
+<button type="button" onclick="document.getElementById('image1').src='bulb on.jfif'">
+    Click here to bulb ON
+</button>
+
+<img src="bulb off.jfif" id="image1" width="500" align="center">
+
+<button type="button" onclick="document.getElementById('image1').src='bulb off.jfif'">
+    Click here to bulb OFF
+</button>
+
+<button type="button" onclick="document.getElementById('page').style.backgroundColor='white'">
+    Click here to change the bgcolor
+</button>
+
+<p id="para" style="font-size:larger;">
+    This is my paragraph. JavaScript can change the style of this paragraph.
+</p>
+
+<button onclick="
+    document.getElementById('para').style.fontFamily='Arial';
+    document.getElementById('para').style.fontSize='30px';
+    document.getElementById('para').style.color='aqua';
+">
+    Change Font and Size
+</button>
+
+<h1 id="page4">Hello</h1>
+<h1 id="page5">Welcome Back</h1>
+
+<button onclick="document.getElementById('page4').innerHTML='Welcome';">
+    Click Here
+</button>
+
+<script src="function.js"></script>
+
+</body>
+</html>
