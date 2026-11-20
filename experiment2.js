@@ -1,9 +1,9 @@
-//firstly import fs=file system  module in ur program 
+//firstly import fs=file system  module in 0ur program 
 const fs=require('fs');
 
 
-//create file and also write some content in file 
-// fs.writeFile("student.txt","hello,thid file is for student",(err)=>{
+// //create file and also write some content in file 
+// fs.writeFile("student.txt","hello,this file is for student",(err)=>{
 //     if(err){
 //         console.log(err);
 //     }else{
@@ -12,7 +12,7 @@ const fs=require('fs');
 // });
 
 
-//now reading file content 
+// //now reading file content 
 // fs.readFile("student.txt","utf-8",(err,data)=>{
 // if(err){
 //     console.log(err)
@@ -23,7 +23,7 @@ const fs=require('fs');
 // });
 
 
-//now update file using appendFile method it will only add extra content insind exiting file student txt
+// //now update file using appendFile method it will only add extra content inside  existing file student txt
 // fs.appendFile("student.txt","    this is file of cse2nd year",(err)=>{
 //     if(err) throw err
 //     else{
@@ -38,8 +38,19 @@ const fs=require('fs');
 fs.unlink("student.txt",(err)=>{
     if(err) throw err
     else{
-        console.log("file delet sucessfully");
+        console.log("file delete sucessfully");
     }
 
 });
 
+// console.log("one");
+
+// setTimeout(() => {
+//     console.log("two");
+// }, 4000);
+
+// console.log("three");
+
+// console.log("One")
+// console.log("Two")
+// console.log("Three")

@@ -55,16 +55,14 @@ let student= [{
     CGPA:9.3,
 },
 
-
-
-
 ];
+console.table(student);
 
-for(let i=0;i<student.length;i++){
-    if(student[i].CGPA>9.0){
-      console.log(student[i]);
-    }}
- console.table(student);
+// for(let i=0;i<student.length;i++){
+//     if(student[i].CGPA>9.0){
+//       console.log(student[i]);
+//     }}
+//console.table(student);
 
 //  let obj ={
 //     name: "pen",
@@ -99,14 +97,14 @@ for(let i=0;i<student.length;i++){
 
 
 
-let s = "Hello";
-let count = 0;
+// let s = "Hello";
+// let count = 0;
 
-for (let i = 0; s[i] != undefined; i++) {
-    count++;
-}
+// for (let i = 0; s[i] != undefined; i++) {
+//     count++;
+// }
 
-console.log(count);
+// console.log(count);
 
 
 // let s="satakshi";
